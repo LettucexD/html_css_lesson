@@ -1,0 +1,19 @@
+/* The box model can be best understood by inspecting an element on the developer tools on Google Chrome */
+.simple {
+    width: 500px;
+    border: 2px solid red;
+    margin: 10px auto;
+}
+/* "auto" dvides the remaining pixels on the other sides not specified */
+/* margin is with respect to the parent element */
+
+.fancy {
+    width: 500px;
+    border: 5px solid green;
+    margin: 10px auto;
+    padding: 50px 50px;
+    box-sizing: border-box
+}
+/* padding will move the content within the border */
+/* box-sizing: border-box retains the same size as the previous box when using padding */
+/* padding is with respect to the current element */

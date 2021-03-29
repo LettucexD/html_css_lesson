@@ -1,0 +1,28 @@
+.box {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solidb blue;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+/* display: inline-block; converts block elements into inline elements */
+/* position: relative; - with respect to its current position, where do you want the element to go? */
+
+img {
+    display: block;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+/* display: block; converts inline elements into block elements */
+
+/* example of absolute units */
+/* px, cm, mm */
+
+/* example of relative units */
+/* em, %, vh, rem */
+
+
